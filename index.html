@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section>
+        <header>
+            <div class="dropdown">
+                <button class="link">favorite food</button>
+                <ul class="menu">
+                    <li><a href="http://www.google.co.uk"  target="_blank" rel="noopener noreferrer">
+                        牛蛙</a></li>
+                    <li><a href="https://home.meishichina.com/recipe-56872.html"  target="_blank" rel="noopener noreferrer">
+                        酸菜鱼</a> </li>
+                    <li><a href="https://home.meishichina.com/recipe-78659.html"  target="_blank" rel="noopener noreferrer">
+                        烤鸭</a>
+                    <li><a href="https://www.xiachufang.com/category/1003497/"  target="_blank">
+                        炸鸡</a> </li>
+                </ul>
+            </div>
+            
+        </header>
+
+        <div class="mainBx">
+            <div class="imgBx">
+                <div class="hint">Click on the image to see hidden text</div>
+                <img id="featured" src="img/1.jpeg" alt="">
+
+                <div class="container">
+                    <button class="previous">&#x21e6;</button>
+                    <div class="slider">
+                        <img class="thumbnail active" src="img/1.jpeg" alt="">
+                        <img class="thumbnail" src="img/2.jpeg" alt="">
+                        <img class="thumbnail" src="img/3.jpeg" alt="">
+                        <img class="thumbnail" src="img/4.jpeg" alt="">
+                        <img class="thumbnail" src="img/5.jpeg" alt="">
+                        <img class="thumbnail" src="img/6.jpeg" alt="">
+                        <img class="thumbnail" src="img/7.jpeg" alt="">
+                        <img class="thumbnail" src="img/8.jpeg" alt="">
+                        <img class="thumbnail" src="img/9.jpeg" alt="">
+                    </div>
+                    <button class="next">&#x21e8;</button>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <div class="form">
+                    <form action="" id="form">
+                        <h3>Sign Up to see MORE!</h3>
+                        
+                        <div class="form-field"> 
+                            <label for="userName">Username</label>
+                            <input type="text" name="userName" id="userName">
+                            <span class="error"></span>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="email">Email Address</label>
+                            <input type="text" name="email" id="email">
+                            <span class="error"></span>
+                        </div>
+                        
+                        <div class="form-field">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                            <span class="error"></span>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="confirm">Conform Password</label>
+                            <input type="password" name="confirm" id="confirm">
+                            <span class="error"></span>
+                        </div>
+
+                        <div class="member">Already a member?<a href="#">Log in</a></div>
+                        
+                        <input type="submit" class="signIn" value="Sign up">
+                        <span class="submit-error"></span>
+                    </form>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
